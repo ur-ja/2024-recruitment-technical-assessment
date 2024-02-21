@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import 'tailwindcss/tailwind.css';
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 import SearchBar from './components/SearchBar';
 import SortBy from './components/SortBy';
 import Card from './components/Card';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='flex align-middle h-[100vh]'>
-      <NavBar className='' />
+      <Navbar />
       <section className='flex flex-col align-middle h-full w-full px-32 py-6'>
         <span className='mb-10'>
           <p className='mb-3'>Devsoc presents</p>
